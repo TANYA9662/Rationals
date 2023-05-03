@@ -1,0 +1,61 @@
+.buttons-container {
+    display:inline-block;
+    border:none;
+}
+.btn{
+    cursor: pointer;
+    display:inline-block;
+    padding: 10px;
+    border:azure;
+    margin: 0.3rem 0;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: 6px 4px 8px;
+
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-primary
+{
+    color:black;
+    background-color:darkgrey;
+    border: dashed red;
+    background-color:darkgray;
+}
+.btn-secondary
+{
+    color:black;
+    background-color:darkgrey;
+    border: dashed red;
+    background-color:darkgray;
+}
+.btn-dark,
+.bg-dark{
+    color:black;
+    background-color:darkgray;
+    border: dashed red;
+}
+.btn-warning,
+.bg-warning
+ {
+  color:black;
+  background-color:darkgray;
+  border: dashed red;
+}
+.btn-outline {
+    background:darkgray;
+    border: solid 2px var(--dark-color);
+    color: var(--dark-color);
+  }
+  .buttons-container {
+   
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+    width:100%;
+    margin-top:1rem;
+  }

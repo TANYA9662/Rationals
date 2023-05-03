@@ -1,0 +1,21 @@
+@model IList<bestmovies_academy.web.ViewModels.Movies.MovieListViewModel>
+<section class ="page">
+    <h1 class ="page-title">We show the best movies in one place</h1>
+   
+
+<div class="gallery-wrapper">
+  @foreach(var movie in Model)
+  {
+    <div class="gallery-card">
+     <img src ="@movie.ImageUrl">
+      <div><span>@movie.Category</span>&nbsp;<span>@movie.Release</span></div>
+      <div class="buttons-container">
+     <a class ="btn btn-dark" asp-action= "details" asp-controller="movies" asp-route-id= "@movie.Id">See more</a>
+      <a class ="btn btn-dark" asp-action= "edit"  asp-controller="movies" asp-route-id= "@movie.Id">Change</a>
+      <a class ="btn btn-warning" asp-action= "delete"  asp-controller="movies" asp-route-id= "@movie.Id">Delete</a>
+     </div> 
+    </div>
+  }
+  </div>
+</section>
+  

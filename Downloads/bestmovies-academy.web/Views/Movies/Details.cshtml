@@ -1,0 +1,18 @@
+@model bestmovies_academy.web.ViewModels.Movies.MovieDetailViewModel
+
+<article class ="page" >
+   <section class ="movie-detail-container">
+   <div class="movie-detail">
+    <span class="back-icon">
+    <a asp-action="index"><span><i class="fa-regular fa-arrow-left-long"></i> Go Back</span></a>
+    </span>
+    <h2 class = "movie-detail-header">@Model.Category  @Model.Release</h2>
+    <img src ="@Model.ImageUrl">
+    <div class="movie-detail-info">
+
+    <div>
+        <h4>Description</h4>
+        <div>@Model.Description</div>
+      </div>
+    </section>
+</article>

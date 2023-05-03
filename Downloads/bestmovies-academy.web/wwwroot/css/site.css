@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@400;500;600;700&display=swap');
+/*reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+main{
+    margin: 7rem 0 0.1rem;
+   
+}
+body{
+    font-family: "Courgette", sans-serif;
+    background-color:darkred;
+    color: antiquewhite;
+    line-height: 1.4;
+}
+h1,
+h2{
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+a {
+    
+  color:black;
+  text-decoration: none ;
+}
+ul {
+  list-style: none;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  width: 600px;
+  max-width: 600px;
+  background-color:aliceblue;
+  padding: 1rem;
+  border-radius: 5px;
+  
+}
+form label{
+  color:black;
+  padding: 0.4rem 0;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select{
+width:100%;
+border-radius: 5px;
+font-size: 0.7rem;
+padding: 0.4rem 0.2rem;
+border: 1px solid #333;
+font-family:'Times New Roman', Times, serif;
+outline:none;
+} 
+.form-control{
+  margin: 0.2rem 0;
+
+}
+.form-control label{
+  display:flex;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1.5rem 0;
+}
+.page-title{
+  text-align: center;
+  font-weight: 700;
+  color:aliceblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  padding: 2rem 0 3rem 0;
+}
+.text-primary {
+  color: var(--primary-text-color);
+}
+.error{
+  color:crimson;
+}
+
+p {
+    margin: 1rem 0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  input {
+    padding: 0.6rem 0.2rem;
+  }
+
+form label{
+    color:darkgray;
+    padding: 0.4rem 0;
+}
+
+.footer{
+    padding: 1.1rem;
+    text-align:center;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3rem;
+    border: solid  1px var(--dark-color);
+    width: 400px;
+    background: var(--light-color);
+    padding: 1rem 2rem;
+  }
+  
+.go-back {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:aliceblue;
+    margin: 2rem 0;
+  }
+  
+   Icons 
+  .icons {
+    padding: 1rem;
+  }
+  .icons h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .icons i {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .content {
+    margin-bottom: 1rem;
+  }
+  .cars img:hover {
+    opacity: 0.7;
+  }
+  
